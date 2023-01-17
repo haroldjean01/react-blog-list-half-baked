@@ -11,4 +11,5 @@ export function useBlogs() {
     };
     fetchData();
   }, []);
+  return blogs;
 }
